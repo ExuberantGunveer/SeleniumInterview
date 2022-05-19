@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+
+    <listeners>
+        <listener class-name="config.Listners"/>
+    </listeners>
+
+
+ <test  name="Login Page Test">
+
+    <classes>
+      <class name="tests.LoginPageTest"/>
+	</classes>
+  </test>
+
+
+  <test  name="Account Page Test">
+	
+    <classes>
+     	  <class name="tests.AccountPageTest"/>
+    </classes>
+  </test>
+ 
+
+  <test  name="Resources Page Test">
+
+    <classes>      	  
+      <class name="tests.ResourcesPageTest"/>
+    </classes>
+  </test> 
+
+  <test  name="British Red Cross Page Test">
+
+    <classes>      	  
+      <class name="tests.BritishRedCrossPageTest"/>
+    </classes>
+  </test>
+
+
+</suite> <!-- Suite -->
